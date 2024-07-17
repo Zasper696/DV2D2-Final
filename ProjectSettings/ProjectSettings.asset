@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: fd2813bcf649a7f42970dfe888dceaf0
+  productGUID: 448683d735a2e9340b1691e1897d941e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: DV2D2 - Clase 7
+  companyName: IndigoProyect
+  productName: Berserk 1.0
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -818,14 +818,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: DV2D2 - Clase 7
+  metroPackageName: DV2D-2 FullProyect
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: DV2D2 - Clase 7
+  metroApplicationDescription: DV2D-2 FullProyect
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -894,10 +894,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 39486cc1-518a-4d29-afc9-789f819f2aab
+  cloudProjectId: 50c2d0e8-cf0c-4b79-a351-4f2ab0544cfd
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: DV2D2 - Clase 7
+  projectName: DV2D-2 FullProyect
   organizationId: programas-personales
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

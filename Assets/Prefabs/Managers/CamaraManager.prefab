@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6006007880672771722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6462886765952720839}
+  - component: {fileID: 750542557424521107}
+  m_Layer: 0
+  m_Name: CamaraManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6462886765952720839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006007880672771722}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.5953813, y: -0.76729107, z: -0.12996961}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &750542557424521107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006007880672771722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 332ab965fb0e36443b3b89e7d94fa42e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camaraConfigs:
+  - sceneName: Level 1
+    limiteXMinimo: 2.98
+    limiteXMaximo: 9.01
+    limiteYMinimo: -3.94
+    limiteYMaximo: 5.97
+  - sceneName: Level 2
+    limiteXMinimo: 4.05
+    limiteXMaximo: 9.87
+    limiteYMinimo: -7.86
+    limiteYMaximo: 5.98
+  - sceneName: Level 3
+    limiteXMinimo: 1.98
+    limiteXMaximo: 18.99
+    limiteYMinimo: -19.03
+    limiteYMaximo: 8.99
+  - sceneName: Level 4
+    limiteXMinimo: 10.73
+    limiteXMaximo: 21.43
+    limiteYMinimo: -19.03
+    limiteYMaximo: 8.99
+  - sceneName: Level 5
+    limiteXMinimo: 18.53
+    limiteXMaximo: 21.45
+    limiteYMinimo: -11.93
+    limiteYMaximo: -6.08

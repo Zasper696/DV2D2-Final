@@ -3,7 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Bullet
+  - Wall
+  - Spawner
+  - UI 1
+  - UI 2
+  - UI 3
+  - UI 4
+  - UI 5
+  - Canvas
+  - PlayerSpawn
+  - UI_EnemyCounter
+  - UI_NextRoundCounter
+  - UI_WaveCounter
+  - UI_HealthText
+  - UI_HealthSlider
   layers:
   - Default
   - TransparentFX

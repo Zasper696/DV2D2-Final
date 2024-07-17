@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2309257480144195084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1083951629915973028}
+  - component: {fileID: 8042970059594020278}
+  m_Layer: 0
+  m_Name: DamageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1083951629915973028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2309257480144195084}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.257439, y: -2.1108599, z: -0.011243477}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8042970059594020278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2309257480144195084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bdbc7a040dcc84699d9ffcc451804b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDamageConfigs:
+  - enemyPrefab: {fileID: 3222664505555290556, guid: fc14f592d270fe44fa81d690154b3534, type: 3}
+    damageType: 0
+    damageAmount: 1
+  - enemyPrefab: {fileID: 9092566671886861435, guid: 456b113f4a8456947b32067ce989488f, type: 3}
+    damageType: 0
+    damageAmount: 1
+  enemyDamageConfigs:
+  - enemyPrefab: {fileID: 9092566671886861435, guid: 456b113f4a8456947b32067ce989488f, type: 3}
+    damageType: 0
+    bulletPrefab: {fileID: 1628594925791213764, guid: bce787c47ee259540b2faac1a2f82965, type: 3}
+    damageAmount: 1
+  - enemyPrefab: {fileID: 3222664505555290556, guid: fc14f592d270fe44fa81d690154b3534, type: 3}
+    damageType: 0
+    bulletPrefab: {fileID: 1628594925791213764, guid: bce787c47ee259540b2faac1a2f82965, type: 3}
+    damageAmount: 1
